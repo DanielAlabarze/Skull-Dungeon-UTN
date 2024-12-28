@@ -73,15 +73,12 @@
 }
 
 .footer {
-  width: 100%;
   height: 5rem;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-
   padding: 0.5rem 0;
-
   text-align: center;
   font-size: 14px;
   color: #333;
@@ -101,11 +98,10 @@
 }
 
 @media (max-width: 900px) {
-.imgCorta {
-height: 100%;
+  .imgCorta {
+    height: 100%;
+  }
 }
-}
-
 
 @media (max-width: 768px) {
   main.bg-0 {
@@ -167,4 +163,6 @@ height: 100%;
   .imgCorta {
     height: 100%;
   }
+  
+
 }
