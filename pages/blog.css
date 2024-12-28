@@ -99,7 +99,7 @@ article {
 }
 
 /* Media Queries */
-@media (max-width: 374px) {
+@media (max-width: 500px) {
   .article {
     margin-inline: var(--distance-3);
   }
