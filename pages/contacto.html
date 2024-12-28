@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Daniel Alabarze" />
+    <meta name="description" content="Skull Dungeon -Contacto" />
+    <meta name="keywords" content="Juegos, desarrollo, programacion" />
+    <meta name="robots" content="index, follow" />
+    <meta property="og:title" content="Skull Dungeon -Contacto" />
+    <link
+      rel="shortcut icon"
+      sizes="16x16 24x24 32x32 48x48"
+      href="../images/logos/LogoIcono.ico"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    />
+
+    <title>Skull Dungeon -Contacto</title>
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Georama:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- CSS -->
+    <link rel="stylesheet" href="../library.css" />
+    <link rel="stylesheet" href="../pages/styleContacto.css" />
+  </head>
+  <body>
+    <div class="logo">
+      <img
+        src="../images/logos/LOGO-3.png"
+        class="logoNav pointer hover-2 width-40p m-top-3"
+        alt="logo de Skull Dungeon"
+      />
+    </div>
+
+    <main class="contacto">
+      <section class="">
+        <div class="h2Contacto flex radius-2 flex-center radius-2">
+          <h2 id="contacto" class="size-3 primary">Contacto</h2>
+        </div>
+
+        <form
+          class="form"
+          action="https://formsubmit.co/cdd549e640fcd9391986d8cd2129e28f"
+          method="post"
+          enctype="multipart/form-data"
+        >
+          <label for="nombre"></label>
+          <input
+            class="inputForm size-1"
+            type="text"
+            name="nombre"
+            id="nombre"
+            placeholder="Nombre Completo"
+            required
+          />
+          <label for="email"></label>
+          <input
+            class="inputForm size-1"
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Email"
+            required
+          />
+          <label for="tel"></label>
+          <input
+            class="inputForm size-1"
+            type="tel"
+            name="tel"
+            id="tel"
+            placeholder="Número de Teléfono"
+            required
+          />
+
+          <label for="observaciones"></label>
+          <textarea
+            class="inputForm size-1"
+            name="observaciones"
+            id="observaciones"
+            cols="30"
+            rows="3"
+            placeholder="Mensaje"
+            required
+          ></textarea>
+
+          <button class="inputForm radius-2 bg-3 white size-1" type="submit">
+            ENVIAR
+          </button>
+        </form>
+
+        <button type="button" class="btnVolver">
+          <a href="../index.html"><i class="bi bi-house"></i>Volver</a>
+        </button>
+      </section>
+    </main>
+
+    <footer class="footer bg-2">
+      <img
+        src="../images/logos/LOGO-9.png"
+        class="logoNav pointer hover-2 width-40p p-block-2"
+        alt=""
+      />
+      <p><small class="">Copyright © Skull Dungeon 2024</small></p>
+
+      <p>
+        <small class=""
+          >Desarrollado por <span class="">Daniel Alabarze</span></small
+        >
+      </p>
+    </footer>
+  </body>
+</html>

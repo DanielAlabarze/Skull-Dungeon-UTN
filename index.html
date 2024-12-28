@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Daniel Alabarze" />
+    <meta name="description" content="Skull Dungeon" />
+    <meta name="keywords" content="Juegos, desarrollo, programacion" />
+    <meta name="robots" content="index, follow" />
+    <meta property="og:title" content="Skull Dungeon" />
+    <link
+      rel="shortcut icon"
+      sizes="16x16 24x24 32x32 48x48"
+      href="./images/logos/LogoIcono.ico"
+    />
+    <title>Skull Dungeon</title>
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Georama:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- CSS -->
+    <link rel="stylesheet" href="library.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body class="flex column relative bg-3">
+    <header
+      id="header"
+      class="height-content bg-2 container flex flex-between align-center pad-block-2 absolute fixed width-100"
+    >
+      <img
+        src="./images/logos/LOGO-3.png"
+        class="logoNav pointer hover-2 width-40p"
+        alt="logo de Skull Dungeon"
+      />
+
+      <nav>
+        <ul class="flex gap-2 align-center m-block-1">
+          <li class="flex">
+            <a class="pointer p-2" href="index.html">INICIO</a>
+          </li>
+          <li class="flex">
+            <a class="pointer p-2" href="#portfolio">PORTFOLIO</a>
+          </li>
+
+          <li class="flex">
+            <a class="pointer p-2" href="./pages/blog.html">BLOG</a>
+          </li>
+        </ul>
+      </nav>
+
+      <a href="./pages/contacto.html" class="button button-primary hover-2"
+        >Contacto</a
+      >
+    </header>
+
+    <main class="main bg-1 container grid grid-2 gap-4 height-70 relative">
+      <div class="divMain flex column flex-center gap-3 height-70">
+        <h1 class="title white">Skull Dungeon</h1>
+        <p class="text op-5">
+          Adéntrate en Lucha contra hordas de guerreros no-muertos. Domina
+          combos devastadores y reclama el cráneo del rey liche.
+        </p>
+        <a
+          href="./pages/verMas.html"
+          class="m-top-3 button button-primary hover-2 width-content"
+          >Ver más</a
+        >
+      </div>
+      <picture class="image-main">
+        <source srcset="images/stock/project1/a2.webp" type="image/webp" />
+        <img src="./images/stock/project1/a1.jpg" />
+      </picture>
+    </main>
+
+    <section id="portfolio" class="container p-bottom-5">
+      <div class="imgPortfofio flex flex-center p-block-2 width-100">
+        <img
+          src="./images/logos/LOGO-9.png"
+          class="width-150p"
+          alt="logo de Skull Dungeon"
+        />
+      </div>
+
+      <h2 id="porfolio" class="portfolio text-center p-block-5">Portfolio</h2>
+
+      <div class="width-100 grid grid-2 gap-4 align-center">
+        <div class="card width-100 height-100 hidden radius-2">
+          <img
+            class="height-100"
+            src="./images/stock/project1/a1.jpg"
+            alt="imagen del juego"
+          />
+          <div class="content flex column gap-2">
+            <h3 class="size-3">Skull Dungeon - Nivel 1</h3>
+            <p class="max-width-65 op-5">
+              <span class="size-2">Cripta de los Lamentos:</span> Hordas de
+              esqueletos débiles, pero implacables. Aprende los combos básicos.
+            </p>
+            <a class="lt-primary" href="./pages/verMas.html">Ver más</a>
+          </div>
+        </div>
+
+        <div class="card width-100 height-100 hidden radius-2">
+          <img
+            class="imgCorta width-100"
+            src="./images/stock/project2/a3.jpg "
+            alt="imagen del juego"
+          />
+          <div class="content flex column gap-2">
+            <h3 class="size-3">Skull Dungeon - Nivel 2</h3>
+            <p class="max-width-65 op-5">
+              <span class="size-2 span">Catacumbas Profundas:</span> Guerreros
+              espectrales con escudos. Domina las roturas de guardia.
+            </p>
+            <a class="lt-primary" href="./pages/verMas.html">Ver más</a>
+          </div>
+        </div>
+
+        <div class="card width-100 height-100 hidden radius-2">
+          <img
+            class="height-100"
+            src="./images/stock/project1/a3.avif"
+            alt="imagen del juego"
+          />
+          <div class="content flex column gap-2">
+            <h3 class="size-3">Skull Dungeon - Nivel 3</h3>
+            <p class="max-width-65 op-5">
+              <span class="size-2">Salas de los Sacrificios:</span> Sacerdotes
+              malditos invocan refuerzos. Prioriza a los invocadores.
+            </p>
+            <a class="lt-primary" href="./pages/verMas.html">Ver más</a>
+          </div>
+        </div>
+
+        <div class="card width-100 height-100 hidden radius-2">
+          <img
+            class="height-100"
+            src="./images/stock/project1/a4.png"
+            alt="imagen del juego"
+          />
+          <div class="content flex column gap-2">
+            <h3 class="size-3">Skull Dungeon - Nivel 4</h3>
+            <p class="max-width-65 op-5">
+              <span class="size-2">Cámaras de Eco:</span> Murciélagos gigantes y
+              ecos confusos. Combate en espacios reducidos.
+            </p>
+            <a class="lt-primary" href="./pages/verMas.html">Ver más</a>
+          </div>
+        </div>
+
+        <div class="card width-100 height-100 hidden radius-2">
+          <img
+            class="height-100"
+            src="./images/stock/project1/a5.webp"
+            alt="imagen del juego"
+          />
+          <div class="content flex column gap-2">
+            <h3 class="size-3">Skull Dungeon - Nivel 5</h3>
+            <p class="max-width-65 op-5">
+              <span class="size-2">Túneles de la Desesperación:</span> Trampas
+              ocultas y guerreros rápidos. Reflejos rápidos son clave.
+            </p>
+            <a class="lt-primary" href="./pages/verMas.html">Ver más</a>
+          </div>
+        </div>
+
+        <div class="card width-100 height-100 hidden radius-2">
+          <img
+            class="height-100"
+            src="./images/stock/project2/a1.jpg"
+            alt="imagen del juego"
+          />
+          <div class="content flex column gap-2">
+            <h3 class="size-3">Skull Dungeon - Nivel 6</h3>
+            <p class="max-width-65 op-5">
+              <span class="size-2">Forja de Almas Perdidas:</span> Golems de
+              hueso con armadura pesada. Aprende a esquivar ataques lentos.
+            </p>
+            <a class="lt-primary" href="./pages/verMas.html">Ver más</a>
+          </div>
+        </div>
+
+        <div class="card width-100 height-100 hidden radius-2">
+          <img
+            class="-100"
+            src="./images/stock/project2/a2.jpg"
+            alt="imagen del juego"
+          />
+          <div class="content flex column gap-2">
+            <h3 class="size-3">Skull Dungeon - Nivel 7</h3>
+            <p class="max-width-65 op-5">
+              <span class="size-2">Santuario de las Sombras:</span> Espectros
+              sombríos con ataques furtivos. Usa la iluminación a tu favor.
+            </p>
+            <a class="lt-primary" href="./pages/verMas.html">Ver más</a>
+          </div>
+        </div>
+
+        <div class="card width-100 height-100 hidden radius-2">
+          <img
+            class="height-100"
+            src="./images/stock/project2/a4.jpg"
+            alt="imagen del juego"
+          />
+          <div class="content flex column gap-2">
+            <h3 class="size-3">Skull Dungeon - Nivel 8</h3>
+            <p class="max-width-65 op-5">
+              <span class="size-2">Panteón de los Reyes Caídos:</span> Campeones
+              no-muertos con habilidades únicas. Adapta tu estrategia.
+            </p>
+            <a class="lt-primary" href="./pages/verMas.html">Ver más</a>
+          </div>
+        </div>
+
+        <div class="card width-100 height-100 hidden radius-2">
+          <img
+            class="height-100"
+            src="./images/stock/project2/a5.webp"
+            alt="imagen del juego"
+          />
+          <div class="content flex column gap-2">
+            <h3 class="size-3">Skull Dungeon - Nivel 9</h3>
+            <p class="max-width-65 op-5">
+              <span class="size-2">Cámara del Rey Liche:</span> El rey liche y
+              sus caballeros de élite. Combate final épico.
+            </p>
+            <a class="lt-primary" href="./pages/verMas.html">Ver más</a>
+          </div>
+        </div>
+
+        <div class="card width-100 height-100 hidden radius-2">
+          <img
+            class="height-100"
+            src="./images/stock/project1/a2.webp"
+            alt="imagen del juego"
+          />
+          <div class="content flex column gap-2">
+            <h3 class="size-3">Skull Dungeon - Nivel 10</h3>
+            <p class="max-width-65 op-5">
+              <span class="size-2">Abismo del Vacío:</span> Jefes revividos y
+              desafíos extremos. Pon a prueba tus habilidades al máximo.
+            </p>
+            <a class="lt-primary" href="./pages/verMas.html">Ver más</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer bg-2">
+      <img
+        src="./images/logos/LOGO-9.png"
+        class="logoNav pointer hover-2 width-40p p-block-2"
+        alt=""
+      />
+      <p><small class="">Copyright © Skull Dungeon 2024</small></p>
+
+      <p>
+        <small class=""
+          >Desarrollado por <span class="">Daniel Alabarze</span></small
+        >
+      </p>
+    </footer>
+  </body>
+</html>
