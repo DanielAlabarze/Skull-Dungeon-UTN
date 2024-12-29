@@ -26,7 +26,7 @@
     <link rel="stylesheet" href="style.css" />
   </head>
 
-  <body class="flex column relative bg-3 width-100">
+  <body class="flex column relative width-100">
     <header
       id="header"
       class="height-content bg-2 container flex flex-between align-center pad-block-2 absolute fixed width-100"
@@ -37,28 +37,34 @@
         alt="logo de Skull Dungeon"
       />
 
-      <nav class="width-100 flex flex-center">
+      <nav class="width-100 flex flex-end">
         <ul class="flex gap-2 align-center m-block-1">
-          <li class="flex">
+          <li class="flex p-inline-1">
             <a class="pointer p-2" href="index.html">INICIO</a>
           </li>
-          <li class="flex">
+          <li class="flex p-inline-1">
             <a class="pointer p-2" href="#portfolio">PORTFOLIO</a>
           </li>
 
-          <li class="flex">
+          <li class="flex p-inline-1">
             <a class="pointer p-2" href="./pages/blog.html">BLOG</a>
+          </li>
+
+          <li class="flex p-inline-1">
+            <a
+              href="./pages/contacto.html"
+              class="button button-primary hover-2"
+              >Contacto</a
+            >
           </li>
         </ul>
       </nav>
-
-      <a href="./pages/contacto.html" class="button button-primary hover-2"
-        >Contacto</a
-      >
     </header>
 
-    <main class="main bg-1 container grid grid-2 gap-4 height-70 relative width-100">
-      <div class="divMain flex column flex-center gap-3 height-70">
+    <main
+      class="main bg-1 container grid grid-2 gap-4 height-70 relative width-100"
+    >
+      <div class="divMain flex column flex-center gap-3 height-70 width-100">
         <h1 class="title white">Skull Dungeon</h1>
         <p class="text op-5">
           Adéntrate en Lucha contra hordas de guerreros no-muertos. Domina
@@ -70,7 +76,7 @@
           >Ver más</a
         >
       </div>
-      <picture class="image-main">
+      <picture class="image-main width-100">
         <source srcset="images/stock/project1/a2.webp" type="image/webp" />
         <img src="./images/stock/project1/a1.jpg" />
       </picture>
@@ -88,7 +94,7 @@
       <h2 id="porfolio" class="portfolio text-center p-block-5">Portfolio</h2>
 
       <div class="width-100 grid grid-2 gap-4 align-center">
-        <div class="card width-100 height-100 hidden radius-2">
+        <div class="card width-100 height-100 hidden radius-2 shadow-4">
           <img
             class="height-100"
             src="./images/stock/project1/a1.jpg"
@@ -104,7 +110,7 @@
           </div>
         </div>
 
-        <div class="card width-100 height-100 hidden radius-2">
+        <div class="card width-100 height-100 hidden radius-2 shadow-4">
           <img
             class="imgCorta width-100"
             src="./images/stock/project2/a3.jpg "
@@ -120,10 +126,10 @@
           </div>
         </div>
 
-        <div class="card width-100 height-100 hidden radius-2">
+        <div class="card width-100 height-100 hidden radius-2 shadow-4">
           <img
             class="height-100"
-            src="./images/stock/project1/a3.jpg"
+            src="./images/stock/project1/a3.avif"
             alt="imagen del juego"
           />
           <div class="content flex column gap-2">
@@ -136,7 +142,7 @@
           </div>
         </div>
 
-        <div class="card width-100 height-100 hidden radius-2">
+        <div class="card width-100 height-100 hidden radius-2 shadow-4">
           <img
             class="height-100"
             src="./images/stock/project1/a4.png"
@@ -152,7 +158,7 @@
           </div>
         </div>
 
-        <div class="card width-100 height-100 hidden radius-2">
+        <div class="card width-100 height-100 hidden radius-2 shadow-4">
           <img
             class="height-100"
             src="./images/stock/project1/a5.webp"
@@ -168,7 +174,7 @@
           </div>
         </div>
 
-        <div class="card width-100 height-100 hidden radius-2">
+        <div class="card width-100 height-100 hidden radius-2 shadow-4">
           <img
             class="height-100"
             src="./images/stock/project2/a1.jpg"
@@ -184,9 +190,9 @@
           </div>
         </div>
 
-        <div class="card width-100 height-100 hidden radius-2">
+        <div class="card width-100 height-100 hidden radius-2 shadow-4">
           <img
-            class="-100"
+            class="height-100"
             src="./images/stock/project2/a2.jpg"
             alt="imagen del juego"
           />
@@ -200,7 +206,7 @@
           </div>
         </div>
 
-        <div class="card width-100 height-100 hidden radius-2">
+        <div class="card width-100 height-100 hidden radius-2 shadow-4">
           <img
             class="height-100"
             src="./images/stock/project2/a4.jpg"
@@ -216,7 +222,7 @@
           </div>
         </div>
 
-        <div class="card width-100 height-100 hidden radius-2">
+        <div class="card width-100 height-100 hidden radius-2 shadow-4">
           <img
             class="height-100"
             src="./images/stock/project2/a5.webp"
@@ -232,7 +238,7 @@
           </div>
         </div>
 
-        <div class="card width-100 height-100 hidden radius-2">
+        <div class="card width-100 height-100 hidden radius-2 shadow-4">
           <img
             class="height-100"
             src="./images/stock/project1/a2.webp"
