@@ -195,7 +195,7 @@ main {
     align-items: center;
     gap: 1rem;
     position: absolute;
-    top: 5.5rem;
+    top: 5rem;
     right: auto;
     background-color: var(--dark-primary);
     padding: 1.5rem;
@@ -203,9 +203,11 @@ main {
   }
 
   .nav.visible {
+    width: 16rem;
     opacity: 1;
     visibility: visible;
-    border-radius: 30px;
+    border-radius: 0 0 50% 50%;
+    clip-path: polygon(0 0, 100% 0, 75% 100%, 25% 100%);
     padding-top: 0;
   }
 
