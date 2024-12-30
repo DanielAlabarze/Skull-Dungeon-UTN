@@ -18,6 +18,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    />
+    <link
       href="https://fonts.googleapis.com/css2?family=Georama:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
@@ -27,18 +31,18 @@
   </head>
 
   <body class="flex column relative width-100">
-    <header
-      id="header"
-      class="height-content bg-2 container flex flex-between align-center pad-block-2 absolute fixed width-100"
-    >
+    <header id="" class="bg-2 absolute fixed width-100">
       <img
         src="./images/logos/LOGO-3.png"
         class="logoNav pointer hover-2 width-40p"
         alt="logo de Skull Dungeon"
       />
+      <button class="abrir" id="abrir"><i class="bi bi-list"></i></button>
 
-      <nav class="width-100 flex flex-end">
-        <ul class="flex gap-2 align-center m-block-1">
+      <nav class="nav" id="nav">
+        <button class="cerrar" id="cerrar"><i class="bi bi-x"></i></button>
+
+        <ul class="navList flex gap-3">
           <li class="flex p-inline-1">
             <a class="pointer p-2" href="index.html">INICIO</a>
           </li>
@@ -270,5 +274,6 @@
         >
       </p>
     </footer>
+    <script src="./index.js"></script>
   </body>
 </html>
