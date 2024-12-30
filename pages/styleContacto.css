@@ -9,13 +9,12 @@
 
 body {
   width: 100%;
-  height: 100%;
+height: 95%;
   flex-direction: column;
   display: flex;
   justify-content: center;
   align-items: center;
   background-image: url("../images/stock/project1/a4.png");
-  backdrop-filter: blur(8px);
   background-size: cover;
   background-position: center;
 
@@ -23,7 +22,7 @@ body {
 }
 
 .logo {
-  height: 5%;
+  height: 5rem;
 }
 
 .logoNav {
@@ -44,8 +43,6 @@ main {
   text-align: center;
 }
 .contacto {
-  width: 20rem;
-  height: 90%;
   display: flex;
   flex-direction: column;
   justify-content: center;
